@@ -1,14 +1,3 @@
-
-terraform {
-  required_providers {
-    equinix = {
-      source  = "equinix/equinix"
-      version = "2.4.0" # Use the version you need
-    }
-  }
-}
-
-
 resource "equinix_fabric_cloud_router" "FCRRouter_in_SG" {
   name = var.FCRname
   type = var.FCRtype
