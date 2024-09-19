@@ -22,6 +22,6 @@ resource "equinix_fabric_cloud_router" "FCRRouter_in_SG" {
   }
 }
 
-output "fabric_cloud_router_id" {
-  value       = equinix_fabric_cloud_router.FCRRouter_in_SG.id
-}
+# output "fabric_cloud_router_id" {
+#   value       = equinix_fabric_cloud_router.FCRRouter_in_SG.id
+# }
